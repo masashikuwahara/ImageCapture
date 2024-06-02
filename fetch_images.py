@@ -53,8 +53,8 @@ def fetch_images_by_keyword(url, save_folder, keyword):
         print(f"Image {idx + 1} saved as {img_name}")
 
 if __name__ == "__main__":
-    url = input("Enter the URL: ")
-    save_folder = input("Enter the folder to save images: ")
-    keyword = input("Enter the keyword to search for: ")
+    url = input("URLを入力: ")
+    save_folder = input("保存するフォルダ名を入力: ")
+    keyword = input("何かキーワードがあれば入力: ")
     fetch_images_by_keyword(url, save_folder, keyword)
-    input("Press Enter to exit...")
+    input("終了しました")
